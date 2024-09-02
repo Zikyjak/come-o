@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Série Favorita - The Walking Dead</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Minha Série Favorita</h1>
+
+    <h2>Título: The Walking Dead</h2>
+
+    <img src="the-walking-dead.jpg" alt="The Walking Dead" class="imagem">
+    <p class="legenda">Imagem representativa da série The Walking Dead.</p>
+
+    <h3>Descrição</h3>
+    <p>The Walking Dead é uma série pós-apocalíptica cheia de suspense e drama, onde um grupo de sobreviventes luta contra zumbis e outros perigos.</p>
+
+    <h3>Opções</h3>
+    <form>
+        <label for="episodio">Escolha seu episódio favorito:</label>
+        <select id="episodio" name="episodio">
+            <option value="episodio1">Piloto</option>
+            <option value="episodio2">No Sanctuary</option>
+            <option value="episodio3">Too Far Gone</option>
+        </select>
+
+        <div>
+            <input type="radio" id="temporada1" name="temporada" value="temporada1">
+            <label for="temporada1">Temporada 1</label>
+
+            <input type="radio" id="temporada2" name="temporada" value="temporada2">
+            <label for="temporada2">Temporada 2</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="favorito" name="favorito" value="favorito">
+            <label for="favorito">Marcar como favorito</label>
+        </div>
+    </form>
+
+    <h3>Vídeo</h3>
+    <video width="320" height="240" controls>
+        <source src="trailer-walking-dead.mp4" type="video/mp4">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+</body>
+</html>
